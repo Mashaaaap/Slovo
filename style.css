@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+header, footer {
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    background-color: #1E1E1E;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    margin: 0;
+    list-style:none;
+}
+
+a {
+    margin: 60px;
+    color: #fff;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+ p {
+    font-family: "Inter"
+}
+
+a, h1, h2, h3, h4 {
+    font-family: 'Alumni Sans';
+}
+
+ h2, h3, h4 {
+    margin: 20px 5px 40px;
+    font-size: 48px;
+    font-weight: normal;
+}
+
+.hero {
+   width: 100%;
+   height: 100%;
+   padding: 80px;
+   text-align: center;
+   background: #fff url('./Assets/Img/hero.png') center no-repeat fixed;
+}
+
+.hero div {
+    text-align: center;
+    margin: 150px;
+}
+
+.hero p {
+    font-family: "Alumni Sans";
+    font-weight: 500;
+    color: #fff;
+    padding: 5px;
+}
+
+#hero2 div {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.text {
+    width: 100%;
+}
+
+.text p {
+    margin: 8px;
+}
+
+.container {
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 15%;
+    text-align: left;
+    padding: 50px;
+    display: flex;
+    width: 70%;
+}
+
+img {
+    margin: 40px;
+}
+
+.img_tenders {
+    width: 530px;
+    height: 575px;
+}
+
+#hero2 {
+   background: #fff url('./Assets/Img/tenders.png') center no-repeat fixed;
+}
+
+#hero3 {
+   background: #fff url('./Assets/Img/today.png') center no-repeat;
+}
+
+.poets {
+    display: flex;
+    flex-direction: column;
+}
+
+.poet {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.info {
+    margin: 20px;
+    width: 65%;
+}
+
+.infp p {
+    margin: 5px;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.kh {
+    font-weight: 900; 
+}
+
+.end {
+    font-weight: 200;
+}
+
+.t {
+    font-size: 35px;
+}
+
+#footer_title {
+    font-size: 76px;
+}
+
+.f_cont p {
+    margin-left: 60px;
+    margin-top: -15px;
+    font-size: 18px;
+    font-family: "Alumni Sans";
+}
